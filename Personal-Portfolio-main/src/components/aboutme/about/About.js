@@ -28,36 +28,36 @@ const About = () => {
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
-                My name is <b className="purple">MD Mafujul Hasan </b> 
-                  and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Sonargaon University </b>
-                      in Dhaka, Bangladesh.
+                My name is <b className="purple">Kaushal Javangula </b> 
+                  and I am a <b className="purple">Data Analyst </b> 
+                    student at <b className="purple">San Francisco State University </b>
+                      in San Francisco, California.
                 <br />
                 <br />
-                        I am proficient in various programming languages such as &nbsp;
+                        I am proficient in various programming languages and databases such as &nbsp;
                   <b className="purple">
                     {" "}
-                    C, C++, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
+                    Python, R, SQL, and Java, and tools like Power BI, Tableau, and Advanced MS Excel.{" "}
                   </b>
                 <br />
                 <br />
-                I also have experience working with frameworks and libraries such as &nbsp;
+                I also have experience working with data science frameworks/libraries &nbsp;
 
                   <b className="purple">
                     {" "}
-                    NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
+                    (Pandas, NumPy, Scikit-learn) and cloud platforms (AWS, Azure), as well as data engineering tools (PySpark, Docker, Git).{" "}
                   </b>
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing
-                products with &nbsp;
+                Whenever possible, I also apply my passion for data-driven solutions
+                through machine learning, &nbsp;
                   <b className="purple">
                     {" "}
-                    Modern Javascript Library and Frameworks.
+                    ETL pipelines, and modern data warehousing (Snowflake, Redshift).
                   </b>
                 <br />
                 <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
+                  <b className="purple">building projects in data analysis and engineering. </b>
               </p>
             </Fade>
           </Col>
