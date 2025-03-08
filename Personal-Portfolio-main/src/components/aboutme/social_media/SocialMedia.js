@@ -1,12 +1,7 @@
 import React from "react";
-import {
-  AiOutlineInstagram,
-  AiFillFacebook,
-  AiFillGithub,
-  AiFillLinkedin,
-} from "react-icons/ai";
-import { Container, Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { SiGmail } from "react-icons/si"; // Import the Gmail icon
+import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 
 export default function SocialMedia() {
@@ -19,34 +14,10 @@ export default function SocialMedia() {
         <Row className="g-5">
           <Col md={3}>
             <a
-              href="https://www.instagram.com/_md_mafujul_hasan_/"
+              href="https://github.com/kaushalj2000"
               target="_blank"
               rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <AiOutlineInstagram />
-              </Zoom>
-            </a>
-          </Col>
-          <Col md={3}>
-            <a
-              href="https://www.facebook.com/mh.tonmoy.13"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <AiFillFacebook />
-              </Zoom>
-            </a>
-          </Col>
-          <Col md={3}>
-            <a
-              href="https://github.com/MD-MAFUJUL-HASAN"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
+              className="icon-colour home-social-icons"
             >
               <Zoom cascade>
                 <AiFillGithub />
@@ -55,13 +26,25 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.linkedin.com/in/md-mafujul-hasan/"
+              href="https://www.linkedin.com/in/kaushaljavangula/"
               target="_blank"
               rel="noreferrer"
-              className="icon-colour  home-social-icons"
+              className="icon-colour home-social-icons"
             >
               <Zoom cascade>
                 <AiFillLinkedin />
+              </Zoom>
+            </a>
+          </Col>
+          <Col md={3}>
+            <a
+              href="mailto:kaushal.javangula@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="icon-colour home-social-icons"
+            >
+              <Zoom cascade>
+                <SiGmail />
               </Zoom>
             </a>
           </Col>
