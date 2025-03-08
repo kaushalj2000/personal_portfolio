@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
+import VCA from "../../images/voice_customer_analysis.png";
+import CCP from "../../images/customer_churn_prediction.png";
+import DVC from "../../images/Data_visualization_chatbot.png";
+import MA from "../../images/marketing_analysis.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -36,13 +36,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      Voice of the Customer Analysis
                     </h5>
-                    <img src={nyc} alt={nyc} />
+                    <img src={VCA} alt={VCA} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://github.com/kaushalj2000/voice_customer_analysis"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -66,12 +66,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
+                      Engineered a sentiment analysis pipeline to 
+                      decode customer emotions from telecom reviews,
+                      unveiling hidden patterns in satisfaction and dissatisfaction.
                     </p>
                   </h6>
                   <div
@@ -82,7 +79,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    Python, NLTK, SQL, Power BI
                   </div>
                 </div>
               </Fade>
@@ -99,13 +96,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                      Customer Churn Prediction Model
                     </h5>
-                    <img src={hd} alt={hd} />
+                    <img src={CCP} alt={CCP} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                          "https://github.com/kaushalj2000/customer-churn-prediction"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -129,11 +126,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Use of AI and Machine Learning: Artificial intelligence
-                      and machine learning are already being used in healthcare
-                      to help predict heart disease. In the future, these
-                      technologies could become more advanced, enabling more
-                      accurate predictions of heart disease risk.
+                      Developed a machine learning model to
+                      predict customer churn based on transaction 
+                      history and user behavior data.
                     </p>
                   </h6>
                   <div
@@ -144,7 +139,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn
+                    Python, SQL, Tableau, Machine Learning
                   </div>
                 </div>
               </Fade>
@@ -161,13 +156,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      Data Visualization Chatbot
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={DVC} alt={DVC} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://github.com/kaushalj2000/data-visualization-chatbot"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -191,11 +186,10 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                      An interactive chatbot application for simplifying data analysis
+                      and visualization. This chatbot allows users to upload datasets, 
+                      generate visualizations, and receive insights, all powered by 
+                      advanced Large Language Models (LLMs) such as Ollama.
                     </p>
                   </h6>
                   <div
@@ -206,7 +200,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    Python, LLM, Data Visualization
                   </div>
                 </div>
               </Fade>
@@ -223,13 +217,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                      Marketing Campaign Performance Analysis
                     </h5>
-                    <img src={pp} alt={pp} />
+                    <img src={MA} alt={MA} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                          "https://github.com/kaushalj2000/data-visualization-chatbot"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -253,9 +247,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
+                      Analyzed marketing campaign effectiveness 
+                      using ad data from Google Ads and Facebook Ads,
+                      extracting metrics like ROI and conversion rates.
                     </p>
                   </h6>
                   <div
@@ -266,7 +260,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    SQL, Tableau, A/B Testing
                   </div>
                 </div>
               </Fade>
