@@ -5,11 +5,13 @@ import Typing from "./Typing";
 import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn, FaGoogle } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
+import resume from "../../images/Kaushal_Javangula_Data_Analyst.pdf";
 import Contactus from "../../components/contactus/Contactus";
+import { FaFileDownload } from "react-icons/fa"; // Import the download icon
 
 export default function Home() {
   return (
@@ -31,7 +33,7 @@ export default function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MD MAFUJUL HASAN</strong>
+                <strong className="main-name"> KAUSHAL JAVANGULA</strong>
               </h1>
 
               <div className="typing-homeclass">
@@ -41,52 +43,42 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/MD-MAFUJUL-HASAN"
+                      href="https://github.com/kaushalj2000"
                       target="_blank"
                       rel="noreferrer"
-                      className="iconcolour  homesocialicons"
+                      className="iconcolour homesocialicons"
                     >
                       <AiFillGithub />
                     </a>
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                      href="https://www.linkedin.com/in/kaushaljavangula/"
                       target="_blank"
                       rel="noreferrer"
-                      className="iconcolour  homesocialicons"
+                      className="iconcolour homesocialicons"
                     >
                       <FaLinkedinIn />
                     </a>
                   </li>
+
                   <li className="socialicons">
                     <a
-                      href="https://www.instagram.com/_md_mafujul_hasan_/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <AiFillInstagram />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <FaFacebookF />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="mailto:mdtonmoy13.mt@gmail.com/"
+                      href="mailto:kaushal.javangula@gmail.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
                     >
                       <FaGoogle />
+                    </a>
+                  </li>
+                  <li className="socialicons">
+                    <a
+                      href= {resume} // Replace with the actual path to your resume file
+                      download= {resume} // Suggested file name for download
+                      className="iconcolour homesocialicons"
+                    >
+                      <FaFileDownload /> {/* Download icon */}
                     </a>
                   </li>
                 </ul>
@@ -97,7 +89,7 @@ export default function Home() {
                 <Tilt>
                   <Fade cascade>
                     <img
-                      src="./profile.png"
+                      src="./pp_main.png"
                       alt="home pic"
                       className="img-fluid"
                     />
