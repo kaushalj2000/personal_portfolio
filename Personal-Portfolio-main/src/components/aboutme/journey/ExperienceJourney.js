@@ -18,67 +18,71 @@ function ExperienceJourney() {
         <Link className="btn btn-primary m-1" to="/experiencejourney">
           Experience Journey
         </Link>
-        <Link className="btn btn-primary m-1" to="/technicaljourney">
-          Technical Journey
-        </Link>
         <Link className="btn btn-primary m-1" to="/projectjourney">
           Project Journey
         </Link>
       </div>
-      <div className="mt-5">
-        <Flip top cascade>
-          <h1>Experience Journey</h1>
-        </Flip>
-      </div>
+      
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
-          date="2023 - Continuing"
+          date={<span style={{ marginLeft: '50px' }}>May 2024 - July 2024</span>}
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-            Study World
+            Project Management Institute
           </h5>
           <h6 className="vertical-timeline-element-subtitle mt-2">
-            Branch Manager & Student Counsellor
+            Data Analyst Intern
           </h6>
-          <p>• Provide Education Counselling to students and guardians for study abroad.</p>
-          <p>• Providing information about Universities/Colleges, Course/Fees, Admissions, Visa procedures etc.</p>
-          <p>• Effective follow-ups with the prospective students/guardians.</p>
-          <p>• Provide daily, Weekly, monthly, and yearly reporting about all operational activities.</p>
-          <p>• Processing student visa applications based on entry requirements and admissions procedures and 
-            enhance their chances of success in interviews by developing their skills.</p>
-          <p>• Preparing applications for admission into different foreign universities.</p>
+          <p>• Analyzed participant engagement, satisfaction scores, and skill improvement metrics using Power BI and Excel to
+          derive actionable insights that enhanced program effectiveness by 20%.</p>
+          <p>• Monitored sponsorship status, sentiment analysis, and job postings through SQL queries, contributing to the
+          formation of 15 new partnerships and 400 job opportunities for PMI members.</p>
+          <p>• Created interactive dashboards to support PMI coordinators in organizing Career Quest programs, optimizing
+          strategic planning and improving participant outcomes.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2021 - 2022"
+          date="September 2021 - June 2023"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-            Excel Telecom (Pvt.) Limited - (National Distributor of SAMSUNG in Bangladesh)
+            Infosys Limited
           </h5>
           <h6 className="vertical-timeline-element-subtitle mt-2">
-            Management of Information System
+            Data Analyst
           </h6>
-          <p>• Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit 
-            data to facilitate the achievement of organizational aims and objectives.</p>
-          <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software 
-            tools for data analysis and creating comprehensive reports and presentations that showcase significant insights and trends.</p>
-          <p>• Consistently completed assigned tasks in a timely and efficient manner as directed by management, while maintaining 
-            effective communication between the company and employees.</p>
-          <p>• Proficient in monitoring daily business operation costs, verifying and evaluating accounting transactions updates, 
-            and providing corresponding reports to top management.</p>
-          <p>• Skilled in collecting and compiling monthly reports, conducting inventory analysis for month-end, quarterly, 
-            and year-end closing, and submitting reports in accordance with management requirements.</p>
-          <p>• Proficient in developing and maintaining various reporting dashboard, technical support to end-users, 
-            diagnosing hardware and software issues, and collaborating with IT teams to promptly resolve system-related problems.</p>
+          <p>• Performed data analysis and SQL querying to resolve 90%+ production issues, extracting customer insights from
+          Telstra’s databases to address cross-functional team inquiries, improving resolution efficiency by 25% and customer satisfaction.</p>
+          <p>• Developed monthly KPI dashboards using Excel to visualize critical metrics and presented actionable insights to
+          stakeholders, enabling data-driven operational decisions for Telstra.</p>
+          <p>• Automated issue resolution workflows by permanently fixing recurring system errors (PKEs), reducing repeat
+          incidents by 30% through root-cause analysis, regression testing, and documentation of standardized solutions.</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date={<span style={{ marginLeft: '50px' }}>May 2024 - July 2024</span>}
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<PersonIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Darwinbox
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle mt-2">
+            Product Specialist Intern
+          </h6>
+          <p>• Contributed as a valued member of the Account Management team, dedicated to analyzing and resolving intricate business use cases related to modules such as 
+          payroll, time management, and talent management. Utilized a proprietary cloud-based HRMS software for these tasks.</p>
+          <p>• Assisted clients in addressing system quality issues, aligning the tool with their business goals, and suggesting relevant features that streamlined processes, ultimately leading to enhancements.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
