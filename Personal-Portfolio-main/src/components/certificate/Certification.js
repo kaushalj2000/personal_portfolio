@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ucsc from "../../images/ucsc.png";
-import ufm from "../../images/ufm.png";
-import cbta from "../../images/CBT&A.pdf";
+import fabric from "../../images/fabric.png";
+import stanford from "../../images/stanford.png";
+import google from "../../images/google.png";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
 
@@ -29,7 +29,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/3573ea1a35bb"
+                          href="https://learn.microsoft.com/api/credentials/share/en-us/KaushalJavangula-3212/32646BBD44647E6D?sharingId"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -38,7 +38,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            {<img className="logo_img" src={fabric} alt={fabric} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -55,13 +55,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Problem Solving Basic : Programming Fundamentals
+                          Microsoft Certified: Fabric Analytics Engineer Associate
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - Microsoft
                         </h3>
                       </div>
                     </div>
@@ -72,7 +72,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href={cbta}
+                          href="https://www.coursera.org/account/accomplishments/specialization/certificate/ND5FS8W6CZW6"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -81,7 +81,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ufm} alt={ufm} />}
+                            {<img className="logo_img" src={google} alt={google} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -98,14 +98,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Basic Computer Application for Everyone: IT Support
-                          Technician level-1
+                          Introduction to Statistics by Stanford
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - Bangladesh Technical Education Board
+                          - Coursera
                         </h3>
                       </div>
                     </div>
@@ -116,7 +115,7 @@ export default function Certification() {
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/af66a6615aad"
+                          href="https://www.coursera.org/account/accomplishments/certificate/U9R2M5CNKZJS"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -125,7 +124,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            {<img className="logo_img" src={stanford} alt={stanford} />}
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -142,13 +141,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Python Basic for : Programming Fundamentals
+                          Google Data Analytics Professional Certificate
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - Coursera
                         </h3>
                       </div>
                     </div>
